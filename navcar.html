@@ -44,6 +44,16 @@
             <li class="nav-item">
               <a class="nav-link " href="#" >wishlist</a>
             </li>
+            <li>
+              
+       <button type="button" class="btn btn-dark" style="float: right; margin-right: 300px; " data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">login/signUp</button>
+       <div class="collapse" id="collapseExample">
+        <div class="card card-body">
+          Some placeholder content for the collapse component. This panel is hidden by default but revealed 
+          when the user activates the relevant trigger.
+        </div>
+      </div>
+            </li>
           </ul>
           <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -96,7 +106,8 @@
   <div class="first " style="height: 400px;">
     <img src="https://media.istockphoto.com/id/1446230370/photo/two-asian-beautiful-women-with-shopping-bags-in-the-city-over-mall-background.webp?b=1&s=612x612&w=0&k=20&c=zrAXc7nSwsUa64Y7fI4Kn9Opia8AG856YvwAgRfofAo=" 
        width="450px"  height="300px" style="margin-top: 60px; margin-left: 60px; border-radius: 10px;">
-       <h4 style="float: right; font-size: 40px ; margin-top: 50px; margin-right: 100px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Shop on shopify.com  <br>  60% -70% Offer🎇<br> India's Biggest Diwali Dhamaka</h4>
+       <h4 style="float: right; font-size: 40px ; margin-top: 50px; margin-right: 100px;  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Shop on shopify.com  <br>  60% -70% Offer🎇<br> India's Biggest Diwali Dhamaka</h4>
+
   </div>
   
   <div class="bg-danger" style="height: 900px;">
@@ -107,11 +118,30 @@
         <div class="card-body">
           <h5 class="card-title">Footwear</h5>
           <p class="card-text">50 % -60% Special Diwali Offer🎇</p>
-          <a href="#collapseExample" class="btn  btn-dark " data-toggle="collapse">Shop Now</a>
-          <div class="collapse" id="collapseExample">
-            
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-            
+          <a href="#" class="btn  btn-dark " data-bs-toggle="modal" data-bs-target="#exampleModal">Shop Now</a>
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog " >
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Fashionable footwear</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                 <p> While clothes maketh the man, the type of footwear you wear reflects 
+                    your personality. We bring you an exhaustive lineup of options in casual shoes for men, such as 
+                    sneakers and loafers. Make a power statement at work dressed in brogues and oxfords. Practice 
+                    for your marathon with running shoes for men and women. Choose shoes for individual games such
+                    as tennis, football, basketball, and the like. Or step into the casual style and comfort offered 
+                    by sandals, sliders, and flip-flops. Explore our lineup of fashionable footwear for ladies, 
+                    including pumps, heeled boots, wedge-heels, and pencil-heels. Or enjoy the best of comfort and 
+                    style with embellished and metallic flats.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-dark">Add to cart</button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
